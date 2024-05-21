@@ -43,7 +43,7 @@ ROOT_URLCONF = 'udemyclone.urls'
 
 TEMPLATES = [
     {
-        STATIC_URL = 'static/'
+       
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
