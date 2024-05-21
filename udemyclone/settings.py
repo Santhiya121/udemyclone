@@ -123,3 +123,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 AUTH_USER_MODEL = 'accounts.User'
 
 CART_SESSION_SLUG = 'cart'
+
+# Add this line
+WHITENOISE_ALLOW_MISSING = True
