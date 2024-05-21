@@ -43,8 +43,9 @@ ROOT_URLCONF = 'udemyclone.urls'
 
 TEMPLATES = [
     {
+        STATIC_URL = 'static/'
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'static')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
